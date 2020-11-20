@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a id="home" href="#home">Marque</a>
+        <a href="#news">Page 1</a>
+        <a href="#news">Page 2</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Page 3
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+      </nav>
+      <div>
+        <div class="jumbotron-div-container">
+          <div class="jumbotron">
+            <h1>Jumbotron</h1>
+            <p>
+              Ceci est un jumbotron, je lui ai ajouter un effet parallax.
+              L'image de fond a été chargée dans le CSS.
+            </p>
+            <a href="https://www.w3schools.com/" class="link" target="_blank"
+              >Plus d'info sur W3School</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="row">
+      <div class="sideLeft">
+        <section>
+          <ul>
+            <li><a href="https://www.capgemini.com/"> Capgemini</a></li>
+            <li><a href="https://fr.linkedin.com/">LinkedIn</a></li>
+            <li><a href="https://www.jesuisundev.com/">Je suis un Dev</a></li>
+            <li><a href="https://lesjoiesducode.fr/">Les joies du code</a></li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="main">
+        <section class="articles-item">
+          <div>
+            <h1>Article</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              illo iste aspernatur omnis quia corrupti delectus autem tempora
+              minus odio ducimus atque praesentium porro dolores quisquam,
+              aliquam eveniet nulla corporis.
+            </p>
+          </div>
+          <div>
+            <h1>Article</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              illo iste aspernatur omnis quia corrupti delectus autem tempora
+              minus odio ducimus atque praesentium porro dolores quisquam,
+              aliquam eveniet nulla corporis. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Nulla delectus sapiente magni illum
+              unde voluptatum. Recusandae aliquid quidem quibusdam cumque
+              deleniti at eveniet repellendus rem, excepturi, accusantium,
+              temporibus consectetur officiis! Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Consectetur cumque vitae dignissimos
+              ipsam id. Provident molestias non alias modi itaque cupiditate
+              amet quas ipsum tenetur dolorum adipisci, deserunt mollitia neque.
+            </p>
+          </div>
+          <div>
+            <h1>Article</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              illo iste aspernatur omnis quia corrupti delectus autem tempora
+              minus odio ducimus atque praesentium porro dolores quisquam,
+              aliquam eveniet nulla corporis. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Nulla delectus sapiente magni illum
+              unde voluptatum. Recusandae aliquid quidem quibusdam cumque
+              deleniti at eveniet repellendus rem, excepturi, accusantium,
+              temporibus consectetur officiis! Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Consectetur cumque vitae dignissimos
+              ipsam id. Provident molestias non alias modi itaque cupiditate
+              amet quas ipsum tenetur dolorum adipisci, deserunt mollitia neque.
+            </p>
+          </div>
+          <div>
+            <h1>Article</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              illo iste aspernatur omnis quia corrupti delectus autem tempora
+              minus odio ducimus atque praesentium porro dolores quisquam,
+              aliquam eveniet nulla corporis. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Nulla delectus sapiente magni illum
+              unde voluptatum. Recusandae aliquid quidem quibusdam cumque
+              deleniti at eveniet repellendus rem, excepturi, accusantium,
+              temporibus consectetur officiis! Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Consectetur cumque vitae dignissimos
+              ipsam id. Provident molestias non alias modi itaque cupiditate
+              amet quas ipsum tenetur dolorum adipisci, deserunt mollitia neque.
+            </p>
+          </div>
+          <div>
+            <h1>Article</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              illo iste aspernatur omnis quia corrupti delectus autem tempora
+              minus odio ducimus atque praesentium porro dolores quisquam,
+              aliquam eveniet nulla corporis. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Nulla delectus sapiente magni illum
+              unde voluptatum. Recusandae aliquid quidem quibusdam cumque
+              deleniti at eveniet repellendus rem, excepturi, accusantium,
+              temporibus consectetur officiis! Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Consectetur cumque vitae dignissimos
+              ipsam id. Provident molestias non alias modi itaque cupiditate
+              amet quas ipsum tenetur dolorum adipisci, deserunt mollitia neque.
+            </p>
+          </div>
+        </section>
+        <h2>Modal Example</h2>
+
+        <button id="myBtn">Ouvrir Modal Inscription</button>
+
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Inscription Formulaire</h3>
+
+            <div class="container">
+              <form action="/action_page.php">
+                <label for="fname">Prenom</label>
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="Your name.."
+                />
+
+                <label for="lname">Nom</label>
+                <input
+                  type="text"
+                  id="lname"
+                  name="lastname"
+                  placeholder="Your last name.."
+                />
+
+                <label for="country">Pays</label>
+                <select id="country" name="country">
+                  <option value="australia">France</option>
+                  <option value="canada">Allemagne</option>
+                  <option value="usa">USA</option>
+                </select>
+
+                <label for="inputMail">Email :</label>
+                <input required type="text" id="inputMail" name="mail" />
+
+                <label for="inputPassword">Mot de passe :</label>
+                <input type="password" id="inputPassword" name="password" />
+
+                <input type="submit" value="Submit" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sideRight"></div>
+    </div>
+
+    <div class="footer">
+      <h2>Footer</h2>
+    </div>
+
+    <script src="./assets/script/main.js"></script>
+  </body>
+</html>
